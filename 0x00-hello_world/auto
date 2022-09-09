@@ -1,7 +1,6 @@
-#!/bin/bash
 #!/bin/bash                                                                                                                
 git add .                                                                                                                  
-echo 'Enter commit message below\n'
+echo -e 'Enter commit message below\n'
 read msg
 git commit -m '$msg ....Update'                                                                                         
 git push   
