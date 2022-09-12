@@ -14,7 +14,7 @@ int main(void)
 {
 	int num, pos;
 
-	for (num = 0; num < 98; num++)
+	for (num = 0; num <= 98; num++)
 	{
 		for (pos = num + 1; pos <= 99; pos++)
 		{
@@ -25,8 +25,9 @@ int main(void)
 			putchar((pos % 10) + '0');
 
 			if (num == 98 && pos == 99)
+			{	
 				continue;
-			
+			}
 			putchar(',');
 			putchar(' ');
 		}
