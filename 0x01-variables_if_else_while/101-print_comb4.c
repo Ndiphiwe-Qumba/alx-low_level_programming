@@ -18,7 +18,7 @@ int main(void)
 	{
 		for (pos = num + 1; pos <= '9'; pos++)
 		{
-			for(q = pos + 1; q <= '9'; q++)
+			for (q = pos + 1; q <= '9'; q++)
 			{
 				if ((pos != num) != q)
 				{
