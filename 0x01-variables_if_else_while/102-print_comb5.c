@@ -23,7 +23,6 @@ int main(void)
 			putchar(' ');
 			putchar((pos / 10) + '0');
 			putchar((pos % 10) + '0');
-
 			if (num == 98 && pos == 99)
 			{	
 				continue;
