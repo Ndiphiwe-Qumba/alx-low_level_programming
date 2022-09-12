@@ -22,7 +22,6 @@ int main(void)
 			{
 				putchar(num);
 				putchar(pos);
-				
 				if (num == '8' && pos == '9')
 				{
 					continue;
