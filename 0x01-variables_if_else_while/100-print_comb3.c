@@ -12,21 +12,21 @@
 */
 int main(void)
 {
-	int num;
-	int pos;
+	int num, pos;
 
 	for (num = '0'; num < '9'; num++)
 	{
-		for (pos = num + 1; pos <= 9; pos++)
+		for (pos = num + 1; pos <= '9'; pos++)
 		{
-			if(pos != num)
+			if (pos != num)
 			{
 				putchar(num);
 				putchar(pos);
-
-				if(num == '8' && pos == '9')
+				
+				if (num == '8' && pos == '9')
+				{
 					continue;
-
+				}
 				putchar(',');
 				putchar(' ');
 			}
