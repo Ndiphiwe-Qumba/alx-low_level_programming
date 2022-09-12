@@ -13,7 +13,7 @@
 int main(void)
 {
 	int num;
-	char pos;
+	int pos;
 
 	for (num = '0'; num < '9'; num++)
 	{
