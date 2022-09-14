@@ -1,21 +1,22 @@
 #include "main.h"
 
-/**
- * Comment => Betty Style goes here
- * This program prints _putchar which exist in the header file ../../main.h
- * Nice Nice  Nice
- * Returns 0 for Success
-*/
+/* more headers goes there */
 
+/* betty style doc for function main goes there */
+
+/**
+* main - Entry point
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int i;
 	char c[9] = "_putchar";
-        for (i = 0; i < 8; i++)
+
+	for (i = 0; i < 8; i++)
 	{
 		_putchar(c[i]);
 	}
 	_putchar('\n');
-	
 	return (0);
 }
