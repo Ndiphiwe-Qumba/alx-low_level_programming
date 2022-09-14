@@ -2,6 +2,8 @@
 
 /**
 * _islower - Entry point, prints letters is lower
+*
+* c - is the character tocheck for
 * Return: Always null (Success)
 */
 int _islower(int c)
