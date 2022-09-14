@@ -3,6 +3,7 @@
 /**
  * main - check the code
  *
+ * Description: Prints the letters of alphabets from a to z lower case
  * Return: Always 0.
  */
 void print_alphabet(void)
