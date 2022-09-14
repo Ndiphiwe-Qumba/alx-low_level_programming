@@ -3,6 +3,7 @@
 /**
  * print_sign - prints sign of value
  * @n: is the valllue
+ * #val: is returned as a one or 0
  * Return 1 if positive number
  * print -1 if neg
  */
