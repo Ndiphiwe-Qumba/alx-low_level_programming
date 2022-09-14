@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* _islower - Entry point, print alphabet in given paramether character if is lowercase
-*
-* Description : this _islower prints whether a spec character is lower case
-* Return: Always 0 (Success)
-*/
+ * _islower - print alphabet in given character is lowercase
+ *
+ * Description : this _islower prints  character is lower case
+ * Return: Always 0 (Success)
+ */
 int _islower(int character)
 {
 	char index;
