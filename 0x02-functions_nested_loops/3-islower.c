@@ -1,19 +1,17 @@
 #include "main.h"
 
 /**
- * _islower - print alphabet in given character is lowercase
- *
- * Description : this _islower prints  character is lower case
- * Return: Always 0 (Success)
- */
-int _islower(int character)
+* _islower - Entry point, prints letters is lower
+* Return: Always null (Success)
+*/
+int _islower(int c)
 {
 	char index;
 	int islower = 0;
 
 	for (index = 'a'; index <= 'z'; index++)
 	{
-		if (index == character)
+		if (index == c)
 		{
 			islower = 1;
 		}
