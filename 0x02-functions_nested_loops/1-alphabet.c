@@ -2,9 +2,9 @@
 
 /**
  * main - check the code
- *
- * Description: Prints the letters of alphabets from a to z lower case
- * Return: Always 0.
+ * print_alphabet - prints the letters of alphabet 
+ * Description: prints the letters of alphabets from a to z lower case
+ * Return: Always nothing (nulll).
  */
 void print_alphabet(void)
 {
