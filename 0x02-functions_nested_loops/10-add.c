@@ -5,7 +5,7 @@
  * @a: first number
  * @b: second number
  *
- * Returns : Addition of two nums
+ * Return: 0 Addition of two numbers
  */
 int add(int a, int b)
 {
