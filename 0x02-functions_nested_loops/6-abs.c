@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *_abs - this is the entry point
+ * _abs - this is the entry point
  * @r: is the input
  * Description: This function returns absolute value of a number
- * Return: 
+ * Return: returns the abs value of r
  */
 int _abs(int r)
 {
