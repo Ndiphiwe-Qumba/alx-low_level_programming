@@ -4,7 +4,7 @@
 /**
  * print_to_98 - function prints  from number to 98
  * @n: Number to statr from
- * 
+ *
  * Return: 0 all the numbers from n
  */
 void print_to_98(int n)
