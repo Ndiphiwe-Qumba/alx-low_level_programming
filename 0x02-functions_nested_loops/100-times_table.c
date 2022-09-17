@@ -2,7 +2,7 @@
 
 /**
  * print_times_table - this prints times table
- * formatprint - this formats the print 
+ * fformat - this formats the print 
  * Return 0 returns nothing on exit
  */
 void print_times_table(int n)
@@ -15,12 +15,12 @@ void print_times_table(int n)
 		{
 			_putchar('0');
 			for (j = 1; j <= n; j++)
-				formatprint(i * j);
+				fformat(i * j);
 			_putchar('\n');
 		}
 	}
 }
-void formatprint(int n)
+void fformat(int n)
 {
 	if (n <= 9)
 	{
