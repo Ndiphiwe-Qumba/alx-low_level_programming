@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_times_table - this prints times table
- * fformat - this formats the print 
- * Return 0 returns nothing on exit
+ * print_times_table - funciton main
+ * @n: the number to input
+ * Return 0 Success
  */
 void print_times_table(int n)
 {
@@ -15,12 +15,18 @@ void print_times_table(int n)
 		{
 			_putchar('0');
 			for (j = 1; j <= n; j++)
-				fformat(i * j);
+				pr(i * j);
 			_putchar('\n');
 		}
 	}
 }
-void fformat(int n)
+
+/**
+ * pr - prints text into formated 
+ * @n: is the number
+ * Return 0 succcess alys
+ */
+void pr(int n)
 {
 	if (n <= 9)
 	{
