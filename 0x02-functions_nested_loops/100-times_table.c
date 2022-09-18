@@ -22,11 +22,12 @@ void print_times_table(int n)
 }
 
 /**
- * pr - prints text into formated 
+ * pr - prints text into formated
  * @n: is the number
  * Return 0 succcess alys
  */
-void pr(int n)
+void pr(
+int n)
 {
 	if (n <= 9)
 	{
