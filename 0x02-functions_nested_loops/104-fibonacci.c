@@ -10,9 +10,9 @@
 int main(void)
 {
 	unsigned long int t0 = 0, t1 = 1, s;
-	int i;
+	int i = 0;
 
-	for (i = 1; i<= 98; i++)
+	for (i = 1; i <= 98; i++)
 	{
 		s = t0 + t1;
 
