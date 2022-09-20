@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * _strcpy - string copy function
  *
