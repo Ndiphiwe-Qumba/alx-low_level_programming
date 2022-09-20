@@ -4,8 +4,7 @@
  * _strcpy - string copy function
  *
  * @dest: pointed by
- * @src pointred to by scr
- *
+ * @src: pointred to by scr
  * Return: returns 0 success
  *
  */
