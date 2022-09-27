@@ -2,10 +2,10 @@
 
 /**
  * _strspn - gets the lenght of prefix substring
- * @s : initial segment
- * @accept : bytes from
+ * @s: initial segment
+ * @accept: bytes from
  *
- * return : :) success number of bytes in s
+ * return: 0 :) success number of bytes in s
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -13,7 +13,7 @@ unsigned int _strspn(char *s, char *accept)
 	unsigned int b = 0;
 	int i;
 
-	while(*s)
+	while (*s)
 	{
 		for (i = 0; accept[i]; i++)
 		{
