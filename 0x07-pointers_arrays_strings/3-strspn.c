@@ -2,10 +2,10 @@
 
 /**
  * _strspn - gets the lenght of prefix substring
- * @*s: initial segment
- * @*accept: bytes from
+ * @s: initial segment
+ * @accept: bytes from
  *
- * Return: :) success number of bytes in s
+ * return: :) success number of bytes in s
  */
 
 unsigned int _strspn(char *s, char *accept)
