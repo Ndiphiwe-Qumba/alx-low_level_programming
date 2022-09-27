@@ -2,7 +2,7 @@
 
 /**
  * _strncat - function that concatenates two strings.
- * 
+ *
  * @dest:  string dest string
  * @src:   string source string
  * @n:     number number
