@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * _strpbrk -  funtion searches for string
- * @s: string 
+ * _strpbrk - funtion searches for string
+ * @s: string
  * @accept: character
  *
  * return: 0 :) Success
