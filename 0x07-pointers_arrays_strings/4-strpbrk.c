@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * _strpbrk -  funtion searches
- * @s: string
+ * _strpbrk -  funtion searches for string
+ * @s: string 
  * @accept: character
  *
- * return: 0 :) Success ...
+ * return: 0 :) Success
  */
 
 char *_strpbrk(char *s, char *accept)
