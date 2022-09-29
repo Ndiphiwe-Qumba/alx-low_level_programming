@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _sqrt_recursion - check the code
+ * _sqrt_recursion - check the code
  * @n: number
  *
  * Return: Always 0.
@@ -18,7 +18,7 @@ int _sqrt_recursion(int n)
  * _sqrt - square root method
  * @prev: previous value
  * @root: square root value
- * Return: 0 success 
+ * Return: 0 success
  */
 int _sqrt(int prev, int root)
 {
