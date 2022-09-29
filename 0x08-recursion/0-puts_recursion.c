@@ -2,11 +2,10 @@
 
 /**
  * _puts_recursion - prints a string followed by a new line
- * @s: string to  print 
+ * @s: string to  print
  *
  * return: nothing :) 0 Success
  */
-
 void _puts_recursion(char  *s)
 {
 	if (*s != '\0')
@@ -16,7 +15,6 @@ void _puts_recursion(char  *s)
 	}
 	else
 	{
-		_putchar("   EOFs Exit\n");
+		_putchar('\n');
 	}
-
 }
