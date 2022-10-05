@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * _strncat - join two strings
+ * _strncpy - string copy
  * @dest: string input
  * @src: string input
- * @n: integer input
+ * @n: number
  *
- * return: success 0 :) or error
+ * return: return 0 for Success and :) smile
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int srclen = 0, i = 0;
 	char *temp = dest, *start = src;
@@ -20,8 +20,7 @@ char *_strncat(char *dest, char *src, int n)
 		src++;
 	}
 
-	while (*dest)
-		dest++;
+	srclen++;
 
 	if (n > srclen)
 		n = srclen;
@@ -31,6 +30,5 @@ char *_strncat(char *dest, char *src, int n)
 	for (; i < n; i++)
 		*dest++ = *src++;
 
-	*dest = '\0';
 	return (temp);
 }
