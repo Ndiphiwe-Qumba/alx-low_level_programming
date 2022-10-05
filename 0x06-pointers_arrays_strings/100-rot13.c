@@ -4,7 +4,7 @@
  * rot13 - encodes a string
  * @s: input string
  *
- * return: encoded string
+ * Return: encoded string or :) 0 nothing
  */
 char *rot13(char *s)
 {
