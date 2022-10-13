@@ -1,3 +1,8 @@
+/**
+ * dog - dog struct
+ * Return: Nothing Success
+ */
+
 struct dog
 {
 	char * name;
